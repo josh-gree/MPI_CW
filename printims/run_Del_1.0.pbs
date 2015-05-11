@@ -1,0 +1,5 @@
+#PBS -l walltime=00:02:00
+#PBS -l select=1
+#PBS -A y14
+cd $PBS_O_WORKDIR
+aprun -n 4 ./run_Del_1.0

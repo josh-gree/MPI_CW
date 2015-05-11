@@ -1,0 +1,7 @@
+for procs in 3 4 6 8 12 16 18 24
+do
+     sed s/"XXXXX"/"#define P $procs"/g <basecase.c >run_P_"$procs".c
+     cc run_P_"$procs".c cio.c -o run_P_"$procs"
+     sed s/"XXXXX"/"$procs .\/run_P_$procs"/g <basecase.pbs >run_P_"$procs".pbs
+     qsub run_P_$procs.pbs 
+done

@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+*** joshg   Job: 2885520.sdb   started: 09/05/15 12:49:35   host: mom3 ***
+*** joshg   Job: 2885520.sdb   started: 09/05/15 12:49:35   host: mom3 ***
+*** joshg   Job: 2885520.sdb   started: 09/05/15 12:49:35   host: mom3 ***
+*** joshg   Job: 2885520.sdb   started: 09/05/15 12:49:35   host: mom3 ***
+
+--------------------------------------------------------------------------------
+Writing 512 x 384 picture into file: image_18.pgm
+Application 14268842 resources: utime ~82s, stime ~2s, Rss ~27052, inblocks ~9961, outblocks ~16482
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:00,mem=6312kb,ncpus=24,vmem=75912kb,walltime=00:00:20
+
+*** joshg   Job: 2885520.sdb   ended: 09/05/15 12:49:55   queue: standard ***
+*** joshg   Job: 2885520.sdb   ended: 09/05/15 12:49:55   queue: standard ***
+*** joshg   Job: 2885520.sdb   ended: 09/05/15 12:49:55   queue: standard ***
+*** joshg   Job: 2885520.sdb   ended: 09/05/15 12:49:55   queue: standard ***
+--------------------------------------------------------------------------------

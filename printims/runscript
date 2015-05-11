@@ -1,0 +1,7 @@
+for del in 1.0 0.5 0.1 0.05
+do
+     sed s/"XXXXX"/"$del"/g <basecase.c >run_Del_"$del".c
+     cc run_Del_"$del".c cio.c -o run_Del_"$del"
+     sed s/"XXXXX"/".\/run_Del_$del"/g <basecase.pbs >run_Del_"$del".pbs
+     qsub run_Del_"$del".pbs 
+done
